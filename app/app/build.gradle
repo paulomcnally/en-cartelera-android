@@ -15,8 +15,8 @@ android {
         applicationId 'com.mc.encartelera'
         minSdkVersion 9
         targetSdkVersion 20
-        versionCode 1
-        versionName '1.0'
+        versionCode 2
+        versionName '1.1'
     }
     buildTypes {
         release {
@@ -34,4 +34,5 @@ dependencies {
     compile 'com.loopj.android:android-async-http:1.4.5'
     compile 'com.nhaarman.listviewanimations:library:2.6.0'
     compile 'com.googlecode.android-query:android-query:0.25.9'
+    compile 'com.google.android.gms:play-services:5.0.89'
 }
