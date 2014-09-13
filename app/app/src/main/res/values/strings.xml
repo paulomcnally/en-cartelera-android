@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">En Cartelera Nicaragua</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="no_internet">Es requerido que active Internet.</string>
+    <string name="action_settings">Configuración</string>
 
 </resources>
