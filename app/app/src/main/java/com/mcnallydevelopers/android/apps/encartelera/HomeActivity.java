@@ -1,6 +1,7 @@
 package com.mcnallydevelopers.android.apps.encartelera;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 
 import android.support.v7.app.ActionBarActivity;
@@ -59,7 +60,9 @@ public class HomeActivity extends ActionBarActivity {
             adMobInit();
         }
         else{
-            Toast.makeText(getApplicationContext(), getString(R.string.no_internet), Toast.LENGTH_LONG).show();
+            Intent intent = new Intent(this, InternetRequireActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(intent);
             finish();
         }
 

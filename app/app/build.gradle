@@ -35,4 +35,5 @@ dependencies {
     compile 'com.nhaarman.listviewanimations:library:2.6.0'
     compile 'com.googlecode.android-query:android-query:0.25.9'
     compile 'com.google.android.gms:play-services:5.0.89'
+    compile 'com.flaviofaria:kenburnsview:1.0.4'
 }

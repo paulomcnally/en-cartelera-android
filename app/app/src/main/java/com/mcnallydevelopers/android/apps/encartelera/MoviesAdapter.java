@@ -51,6 +51,9 @@ public class MoviesAdapter  extends ArrayAdapter<MoviesList> {
 
         aq.id(R.id.imageview_minicard_front).progress(R.id.progress_minicard).image(list.getFront(), true, true);
 
+        viewHolder.imageView.setMinimumWidth(10);
+        viewHolder.imageView.setMinimumHeight(10);
+
         viewHolder.textViewSynopsis.setText(list.getSynopsis());
         viewHolder.textViewGenres.setText(list.getGenres());
         viewHolder.textViewClasification.setText(list.getClasification());

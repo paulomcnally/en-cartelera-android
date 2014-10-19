@@ -4,5 +4,7 @@
     <string name="app_name">En Cartelera Nicaragua</string>
     <string name="no_internet">Es requerido que active Internet.</string>
     <string name="action_settings">Configuración</string>
+    <string name="title_activity_internet_require">Requiere acceso a internet</string>
+    <string name="message_internet_require">Require acceso a internet</string>
 
 </resources>
