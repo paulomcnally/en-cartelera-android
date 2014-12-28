@@ -9,18 +9,18 @@ android {
             storePassword ''
         }
     }
-    compileSdkVersion 20
-    buildToolsVersion "20.0.0"
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
     defaultConfig {
         applicationId 'com.mc.encartelera'
         minSdkVersion 9
-        targetSdkVersion 20
+        targetSdkVersion 21
         versionCode 3
         versionName '1.2'
     }
     buildTypes {
         release {
-            runProguard false
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -30,10 +30,10 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:20.0.0'
+    compile 'com.android.support:appcompat-v7:21.0.3'
     compile 'com.loopj.android:android-async-http:1.4.5'
     compile 'com.nhaarman.listviewanimations:library:2.6.0'
     compile 'com.googlecode.android-query:android-query:0.25.9'
-    compile 'com.google.android.gms:play-services:5.0.89'
+    compile 'com.google.android.gms:play-services:6.5.87'
     compile 'com.flaviofaria:kenburnsview:1.0.4'
 }
